@@ -1,0 +1,18 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+.env
+
+# Python environment & cache
+myenv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Large ML Pickle Models (models/fare_model.pkl is 291MB, exceeding GitHub's 100MB file limit)
+models/*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
